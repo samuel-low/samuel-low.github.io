@@ -1,0 +1,157 @@
+body, html{
+	height:100%;
+}
+
+h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+
+h2{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size:18px;
+}
+
+p{
+	font-family: Palatino, Georgia, serif;
+}
+
+th{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	background-color: white;
+}
+
+td{
+	font-family: Palatino, Georgia, serif;
+	color: #ffffff;
+    vertical-align: middle !important;
+}
+
+hr{
+	border-top: 1px solid #ffffff;
+}
+
+
+.nav a{
+	font-family: Palatino, Georgia, serif;
+}
+
+.pt-6,
+.py-6 {
+  padding-top: 5rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 5rem !important;
+}
+
+.pb-6,
+.py-6 {
+  padding-bottom: 5rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 5rem !important;
+}
+
+.o-5{
+    opacity: 50%;
+}
+
+.quotes{
+	font-family:"Book Antiqua", Palatino, Georgia, serif;
+	color: #d1d1d1;
+	font-style: italic;
+    font-size: 20px;
+}
+
+.banner {
+	height: 30vh;
+	min-height: 50px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#999999;
+}
+
+.banner h1{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:69px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner p{
+	color:white;
+}
+
+
+.heading{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.content{
+	background-color: #00000066;
+	color: #ffffff;
+	width: 100%;
+	padding: 20px; 
+}
+
+.content2{
+	background-color: #ffffff;
+	color: #222222;
+	width: 100%;
+}
+
+.content2 h2{
+    color: #f0f0f0;
+}
+
+.card h2{
+    font-size: 30px;
+}
+
+.figure-caption{
+	color: #b0b0b0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.email{
+	position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: none;
+}
+
+.about-me{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Demo.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
+.portfolio{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../img/network_background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
