@@ -3,32 +3,32 @@ body, html{
 }
 
 h1{
-	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 h2{
-	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;  
     font-size: 40px;
     font-weight: bold;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3{
-	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
     font-size:18px;
 }
 
 p{
-	font-family: Palatino, Georgia, serif;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
 th{
-	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 	background-color: white;
 }
 
 td{
-	font-family: Palatino, Georgia, serif;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 	color: #ffffff;
     vertical-align: middle !important;
 }
@@ -42,9 +42,6 @@ a{
 }
 
 
-.nav a{
-	font-family: Palatino, Georgia, serif;
-}
 
 .pt-6,
 .py-6 {
@@ -125,6 +122,11 @@ a{
 	padding-bottom:30px;
 }
 
+.figure-caption{
+	color: #b0b0b0;
+}
+
+
 .content{
 	background-color: rgba(0,0,0,0.55);
 	color: #ffffff;
@@ -139,13 +141,24 @@ a{
 }
 
 .content2 h2{
-    color: #4188fa;
+    color: #1765e3;
     border-bottom: 1px solid #222222;
     text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222, 1px 1px 0 #222;
 }
 
+.content3{
+    background-color: #fdfdfd;
+	width: 100%;
+}
+
+
 .card h2{
     font-size: 30px;
+}
+
+.card p{
+    font-weight: bold;
+    color: #222222;
 }
 
 .card-img-top {
@@ -154,14 +167,6 @@ height: 30vh;
 object-fit: fill;
 }
 
-.content3{
-    background-color: #fdfdfd;
-	width: 100%;
-}
-
-.figure-caption{
-	color: #b0b0b0;
-}
 
 .back-to-top {
     position: fixed;
