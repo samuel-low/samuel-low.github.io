@@ -3,18 +3,18 @@ body, html{
 }
 
 h1{
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
 }
 
 h2{
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
     font-size: 40px;
     font-weight: bold;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3{
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
     font-size:18px;
 }
 
@@ -23,7 +23,7 @@ p{
 }
 
 th{
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	font-family:"Palatino Linotype","Book Antiqua", Palatino, Georgia, serif;
 	background-color: white;
 }
 
