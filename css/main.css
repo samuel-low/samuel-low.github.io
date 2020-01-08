@@ -139,7 +139,6 @@ a{
 }
 
 .card p{
-    font-weight: bold;
     color: #222222;
 }
 
@@ -238,7 +237,7 @@ a{
     list-style: none;
     font-family:"Book Antiqua", Palatino, Georgia, serif;
     font-size: 1.5rem;
-     border-top: 2px solid #f0f0f0;
+    border-top: 2px solid #f0f0f0;
 }
 
 .contact ul li{
