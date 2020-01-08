@@ -34,7 +34,11 @@ td{
 }
 
 hr{
-	border-top: 1px solid #ffffff;
+	border-top: 1px solid #111111;
+}
+
+a{
+    color: #ffffff;
 }
 
 
@@ -66,6 +70,20 @@ hr{
     opacity: 50%;
 }
 
+.o-7{
+    opacity: 70%;
+}
+
+.arrow{
+    color: #000000; 
+    font-size: 40px;
+}
+
+.carousel-caption{
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    color:#111111;
+}
+
 .quotes{
 	font-family:"Book Antiqua", Palatino, Georgia, serif;
 	color: #d1d1d1;
@@ -94,6 +112,13 @@ hr{
 	color:white;
 }
 
+.navbar img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #777777;
+    border-radius: 150%;
+    object-fit: cover;
+}
 
 .heading{
 	padding-top:30px;
@@ -108,17 +133,30 @@ hr{
 }
 
 .content2{
-	background-color: #ffffff;
+	background-color: #fdfdfd;
 	color: #222222;
 	width: 100%;
 }
 
 .content2 h2{
-    color: #f0f0f0;
+    color: #4188fa;
+    border-bottom: 1px solid #222222;
+    text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222, 1px 1px 0 #222;
 }
 
 .card h2{
     font-size: 30px;
+}
+
+.card-img-top {
+width: 100%;
+height: 30vh;
+object-fit: fill;
+}
+
+.content3{
+    background-color: #fdfdfd;
+	width: 100%;
 }
 
 .figure-caption{
@@ -127,16 +165,20 @@ hr{
 
 .back-to-top {
     position: fixed;
-    bottom: 25px;
+    bottom: 8px;
     right: 25px;
     display: none;
 }
 
 .email{
 	position: fixed;
-    bottom: 25px;
+    bottom: 13px;
     left: 25px;
     display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    color: #222222;
 }
 
 .about-me{
@@ -148,10 +190,80 @@ hr{
 }
 
 .portfolio{
-	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../img/network_background.jpg");
+	background-image: linear-gradient(rgba(130, 130, 130, 0.5), rgba(0, 0, 0, 0.5)), url("../img/geometric-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:local;
+}
+
+.networking{
+	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("../img/network-background.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: top;
     background-attachment:fixed;
 }
 
+.servers{
+	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("../img/network-background1.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
+.website{
+	background-image: linear-gradient(rgba(130, 130, 200, 0.5), rgba(0, 0, 0, 0.5)), url("../img/world-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
+.coding{
+	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coding-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
+.techdoc{
+	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Techdoc-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:fixed;
+}
+
+.contact{
+	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 20, 0.5)), url("../img/notebook-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:local;
+}
+
+.contact ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:"Book Antiqua", Palatino, Georgia, serif;
+    font-size: 24px;
+     border-top: 2px solid #f0f0f0;
+}
+
+.contact ul li{
+    border-bottom: 2px solid #f0f0f0;
+    padding-left: 5px;
+}
+
+.contact a:hover{
+    color:#8a8a8a;
+    text-decoration: none;
+}
+
+#text{
+    color: #222222;
+}
