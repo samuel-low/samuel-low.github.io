@@ -223,6 +223,14 @@ a{
     background-attachment:fixed;
 }
 
+.resume{
+	background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(0, 0, 0, 0.5)), url("../img/drawing-background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+    background-attachment:local;
+}
+
 .contact{
 	background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 20, 0.5)), url("../img/notebook-background.jpg");
 	background-repeat: no-repeat;
