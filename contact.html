@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Samuel Low</title>
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	</head>
     
         
@@ -22,35 +22,35 @@
 		</header>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="../index.html"><img src="../img/Headshot.png" alt="Samuel Low"> Samuel Low</a>
+            <a class="navbar-brand" href="index"><img src="img/Headshot.png" alt="Samuel Low"> Samuel Low</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About Me</a>
+                    <a class="nav-link" href="about">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Portfolio
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="servers.html">Servers</a>
-                        <a class="dropdown-item active" href="#">Networking <span class="sr-only">(current)</span></a>
-                        <a class="dropdown-item" href="website.html">Web Design</a>
-                        <a class="dropdown-item" href="coding.html">Coding</a>
-                        <a class="dropdown-item" href="techdoc.html">Technical Documentation</a>
+                        <a class="dropdown-item" href="portfolio/servers">Servers</a>
+                        <a class="dropdown-item" href="portfolio/networking">Networking</a>
+                        <a class="dropdown-item" href="portfolio/website">Web Design</a>
+                        <a class="dropdown-item" href="portfolio/coding">Coding</a>
+                        <a class="dropdown-item" href="portfolio/techdoc">Technical Documentation</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
+                    <a class="nav-link" href="resume">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -68,38 +68,30 @@
         </div>
         </nav>
 
-        <div class="container-fluid p-md-5 networking">
-        <div class="container-md content3 shadow p-md-5 py-3">
+            
+        <div class="container-fluid p-md-5 contact">
+        <div class="container content shadow">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2>Networking</h2>    
-                </div>
-            </div>
-                <hr>
-            <div class="row">
-                <div class="col-lg-12">
-                    <figure class="figure pr-3 pt-1 pl-0">
-                        <img src="../img/topology.png" class="img-fluid figure-img border" alt="Topology on Packet Tracer">			
-                        <figcaption class="figure-caption">Topology on Packet Tracer</figcaption>
-                    </figure>
+                <div class="col-lg-6 p-md-5">
+                    <h2>Contact Me</h2>
+                    <p>There are a variety of ways you can get in touch with me. You could also check my GitHub to see what projects I am working on currently.</p>
                     <br>
-                    <p>I am proficient in Level 2/3 Networking. I've used CISCO routers and switches to set up a small enterprise network.
-                    <br><br>
-                    I made a topology in Packet Tracer that simulates a small business enterprise. I used VLANs to separate the different departments on the switches and port security was implemented. The IP addresses were configured to be set dynamically on the routers, each department again separated into subnets with VLSM. Dynamic NAT and PAT was used to facilitate an Internet connection.</p>
-
-
+                    <ul class="overflow-auto">
+                        <li><i class="fas fa-phone"></i> +61 415 556 378</li>
+                        <li><a href ="mailto:samuel.zhongyi.low@outlook.com"><i class="fas fa-envelope"></i> <i>samuel.zhongyi.low@outlook.com</i></a></li>
+                        <li><a href="https://www.linkedin.com/in/samuel-zhongyi-low/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                            </a></li>
+                        <li><a href="https://github.com/samuel-low" target="_blank">
+                        <i class="fab fa-github-square"></i> GitHub
+                        </a>
+                    </li>
+                    </ul>
+                    <br>
+                
                 </div>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <figure class="figure float-lg-left col-lg-4 pr-3 pt-1 pl-0">
-                        <img src="../img/rack.jpg" class="figure-img img-fluid" alt="The rack of switches and routers">			
-                        <figcaption class="figure-caption">The rack of switches and routers</figcaption>
-                    </figure>
-                    <p>When I finished making this in Packet Tracer, I replicated it all on physical switches and routers. I connected the routers and switches together using Ethernet and serial cables. Then I connected to the device using a console cable and set their configurations using PuTTY.</p>
-                </div>    
-            </div>
+        
         </div>
         </div>
 
@@ -119,7 +111,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/077f1168e9.js" crossorigin="anonymous"></script>
-		<script src="../js/BackToTop.js"></script>
-        <script src="../js/main.js"></script>
+		<script src="js/BackToTop.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
